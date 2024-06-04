@@ -8,12 +8,21 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather App"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="-100dp"/>
+
+    <TextView
         android:id="@+id/tv_latitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Latitude: "
         android:textSize="18sp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginStart="16dp"/>
 
     <TextView
@@ -62,7 +71,7 @@
         android:layout_height="wrap_content"
         android:text="Refresh"
         android:layout_below="@id/tv_weather_info"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         android:gravity="center"/>
 </RelativeLayout>
